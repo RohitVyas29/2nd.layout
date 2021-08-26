@@ -1,0 +1,101 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0px;
+}
+
+.cus_container {
+	max-width: 100%;
+	padding: 0 15px;
+}
+
+.cus_row {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-right: -15px;
+	margin-left: -15px;
+}
+.cus-lg-8 {
+	padding: 0px 15px;
+	-ms-flex: 0 0 66.666667%;
+	flex: 0 0 66.666667%;
+	max-width: 66.666667%;
+}
+.cus-lg-6 {
+	padding: 0px 15px;
+	-ms-flex: 0 0 50%;
+	flex: 0 0 50%;
+	max-width: 50%;
+}
+.cus-lg-4 {
+	padding: 0px 15px;
+	-ms-flex: 0 0 33.333333%;
+	flex: 0 0 33.333333%;
+	max-width: 33.333333%;
+}
+.logo-img{
+	padding-bottom:9px;
+}
+table{
+	background-color:#bfbfbf;
+	border-collapse: collapse;
+	width:100%;
+}
+.table-head{
+	padding:20px 5px ;
+	float:left;
+	}
+tr{
+	border: 1px solid #dddddd;
+}
+.lable {
+    width: 100%;
+    display: block;
+    margin: 0px 0px 5px;
+}
+.for_star{
+	color:red;
+}
+.ATM_card_information{
+	margin:20px 0px;
+}
+.product-img{
+	height: auto;
+	width: 100%;
+	padding:50px 5px;
+}
+.all_radio input[type="radio"] + label + p{
+	display:none;
+	margin-bottom:10px;
+
+}
+.all_radio input[type="radio"]:checked + label + p{
+	display: block;
+}
+.input_boxes{
+	width:100%;
+	height:46px;
+	margin-bottom: 20px;
+	padding: 0px 10px;
+	outline: none;
+}
+.new_account{
+	color:#ccc;
+}
+.chek{
+	width:16px;
+	height:16px;
+	color:#ccc;
+}
+button {
+	background-color:#ff4d4d;
+	padding:5px 10px;
+	float: right;
+	border:none;
+	font-size:18px;
+	color:white;
+}

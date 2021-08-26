@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- head of layout-->
+<head>
+	<!-- title of layout-->
+	<title>MEGA GROCERS</title>
+	<!-- title of layout-->
+
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" /> <!-- Icon -->
+	<link rel="stylesheet" type="text/css" href="css/styles.css" /> <!-- External -->
+</head>
+<!-- head of layout-->
+<!-- main secation of layout-->
+<body>
+
+	<!-- logo image-->
+	<div class="cus_container">
+		<header>
+			<img class="logo-img"  src="images/header_logo.png">
+			<hr>
+		</header>
+		<!-- logo image-->
+		<!-- main heading-->
+		<h1>Checkout</h1>
+		<h5>Shipping Address</h5>
+		<!-- main heading-->
+		<hr>
+		<!-- this is first and last row of layout-->
+
+		<div class="cus_row">
+			<div class="cus-lg-8">
+				<!-- personal detail section-->
+				<form>
+					<!-- fill up detail in input box -->
+					<lable for="e-mail">Email Address<span class="for_star">*</span></lable>
+					<input class="input_boxes" type="e-mail" name="e-mail">
+					<!-- for creat new account -->
+					<p class="new_account">You can create an account after checkout</p>
+					<!-- for creat new account -->
+
+					<hr class="creat_hr">
+					<lable for="first-name">first name <span class="for_star">*</span></lable>
+					<input class="input_boxes" type="first-name" name="first-name">
+
+					<lable for="last-name">last name<span class="for_star">*</span></lable>
+					<input class="input_boxes" type="last-name" name="last-name">
+
+					<lable for="Company">Company<span class="for_star"> *</span></lable>
+					<input class="input_boxes" type="Company" name="Company">
+
+					<lable for="Street Address">Street Address<span class="for_star">*</span></lable>
+					<input class="input_boxes" type="Street Address" name="Street Address">
+					<input class="input_boxes" type="Street Address" name="Street Address">
+
+					<lable for="city">city <span class="for_star">*</span></lable>
+					<input class="input_boxes" type="city" name="city">
+
+					<lable for="State/province">State/province<span class="for_star">*</span></lable>
+					<!-- select answer form the option -->
+					<select class="input_boxes">
+						<option value="Anand">Anand</option>
+						<option value="rajkot">rajkot</option>
+						<option value="ahemdabad">ahemdabad</option>
+						<option value="ahemdabad">amreli</option>
+						<option value="surat">surat</option>
+					</select>
+
+					<lable for="Zip/Postal Code">Zip/Postal Code<span class="for_star"> *</span></lable>
+					<input class="input_boxes" type="Zip/Postal Code" name="Zip/Postal Code">
+
+					<lable for="Country">Country<span class="for_star">*</span></lable>
+
+					<select class="input_boxes">
+						<option value="india">india</option>
+						<option value="usa">usa</option>
+						<option value="dubai">dubai</option>
+						<option value="turki">turki</option> 
+					</select>
+					<lable for="Phone Number">Phone Number <span class="for_star">*</span></lable>
+					<input class="input_boxes" type="Phone Number" name="Phone Number">
+
+					<input type="checkbox">
+					<label for="chek" class="chek"> My billing and shipping address are the same</label>
+					<div class="shipping_section"> 
+						<h4>Shipping Methods</h4>
+						<hr class="hr_s">
+						<p>Best way - <span class="chek">Table Rate $15.00</span></p>
+
+						<h4>payment</h4>
+						<div class="all_radio">
+							  <input type="radio" id="cashOn" name="fav_language" value="HTML">
+							  <label for="cashOn">Cash On Delivery</label>
+							<P class="payment_passage">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit , sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt . Neque porro quisquam est , qui dolorem ipsum quia dolor sit amet , consectetur , adipisci velit , sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem</P>
+							<hr class="hr_s">
+						</div>
+
+						<div class="all_radio">
+							  <input type="radio" id="Paypal" name="fav_language" value="CSS">
+							  <label for="Paypal">Pay by Paypal</label>
+							<P class="payment_passage">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit , sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt . Neque porro quisquam est , qui dolorem ipsum quia dolor sit amet , consectetur , adipisci velit , sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem</P>
+							<hr class="hr_s">
+						</div>
+
+						<div class="all_radio">
+							  <input type="radio" id="Bank" name="fav_language" value="JavaScript">
+							  <label for="Bank"> Bank Transfer </label>
+							<P class="payment_passage">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit , sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt . Neque porro quisquam est , qui dolorem ipsum quia dolor sit amet , consectetur , adipisci velit , sed quia non numquam eius modi tempora incidunt ut labore  et dolore magnam aliquam quaerat voluptatem</P>
+							<hr class="hr_s">
+						</div>
+
+						<div class="all_radio">
+							  <input type="radio" class="last-radio" id="cardpay" name="fav_language" value="HTML">
+							  <label for="cardpay">Pay by Card</label>
+							<P class="payment_passage">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit , sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt . Neque porro quisquam est , qui dolorem ipsum quia dolor sit amet , consectetur , adipisci velit , sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem</P>
+						</div>
+						<div class="ATM_card_information">
+							<lable for="Name Of Card" class="card_detail">Name Of Card  <span class="for_star">*</span></lable>
+							<input class="input_boxes" type="Name Of Card" name="Name Of Card">
+
+							<lable for="Card Number">Card Number <span class="for_star"> *</span></lable> 
+							<input class="input_boxes" type="Card Number" name="Card Number">
+						</div>
+						<div class="last_div">
+							<div class="cus_row">
+								<div class="cus-lg-8">
+									<lable for="State/province">Expiration Date <span class="for_star">*</span></lable>
+									<div class="cus_row">
+										<div class="cus-lg-6">
+											<select class="input_boxes">
+												<option value="month" disabled selected>Month</option>
+												<option value="January">January</option>
+												<option value="February">February</option>
+												<option value="March">March</option>
+												<option value="April">April</option> 
+												<option value="May">May</option> 
+												<option value="June">June</option> 
+												<option value="July">July</option> 
+												<option value="August">August</option> 
+												<option value="September">September</option> 
+												<option value="October">October</option> 
+												<option value="November">November</option> 
+												<option value="Decmber">Decmber</option> 
+											</select>
+										</div>
+										<div class="cus-lg-6">
+											<select class="input_boxes">
+												<option value="Year" disabled selected>Year</option>
+												<option value="2021">2021</option>
+												<option value="2020">2020</option>
+												<option value="2019">2019</option>
+												<option value="2018">2018</option> 
+												<option value="2017">2017</option> 
+												<option value="2016">2016</option> 
+												<option value="2014">2014</option> 
+												<option value="2013">2013</option> 
+												<option value="2012">2012</option>
+												<option value="2011">2011</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class="cus-lg-4">
+									<lable for="CVV/CVC">CVV/CVC <span class="for_star"> *</span></lable>
+									<input class="input_boxes" type="text" name="CVV/CVC">
+								</div>
+							</div>
+						</div> 
+					</div>
+					<button type="button"><strong>PLACE ORDER</strong></button>
+				</form>
+			</div>
+			<!-- personal detail section-->
+
+			<!-- last section of row -->
+
+			<div class=" cus-lg-4">
+				<table>
+					<!-- all row of tabel -->
+
+					<tr>
+						<th class="table-head"><strong>Order Summary</strong></th> 
+					</tr>
+					<tr> 
+						<td><img class="product-img"  src="images/product4.jpg"></td>
+						<td class="payment_passage"><strong>Burnishers</strong> 
+							<p>	<strong>Qty:</strong>1</p>
+							<p ><strong>color:</strong>Yellow</p>
+						</td> <td>$2670.00</strong>
+
+						</td>
+					</tr>
+					<tr>
+						<td> Cart Subtotal 
+							<p>	Shipping Flat Rate-Fxied</p>
+						</td>
+						<td> $ 2670.00 
+							<p> $ 5.00</p> 
+						</td>
+
+
+					</tr>
+					<tr > 
+						<td><strong>Order Total</strong></td><td> <strong class="total_amount"> $2675.00</strong></td>
+					</tr>
+					<!-- all row of tabel -->
+
+
+				</table>
+
+			</div>
+			<!-- last section of row -->
+
+		</div>
+		<!-- this is first and last row of layout-->
+	</div>
+</body>
+<!-- main secation of layout-->
+
+</html>
